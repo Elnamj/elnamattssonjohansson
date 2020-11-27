@@ -1,5 +1,4 @@
 Hi, my name is Elna and this is my portfolio.
-
 This website show part of my previous work.
 
 I hope you like it!
