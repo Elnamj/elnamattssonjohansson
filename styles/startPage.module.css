@@ -1,0 +1,75 @@
+#body{
+    margin:0px;
+    background:url('../public/startbg.mp4');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  @keyframes anim2{
+    from{
+        left: 30%;
+        width: 530px;
+    }
+    to{
+        width: 0px;
+        left: 50%;
+    }
+  }
+  
+  #box2{
+    width: auto;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 130px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    overflow: hidden;
+  }
+
+  #name{
+    position: relative;
+    left: -100%;
+    animation: anim3 2s forwards 2s;
+  }
+
+  #box3{
+    width: auto;
+    height: auto;
+    font-family: 'Courier New';
+    color: black;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 60px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    overflow: hidden;
+  }
+  
+  #text{
+    position: relative;
+    left: -100%;
+    animation: anim3 2s forwards 2s;
+  }
+  
+  @keyframes anim3{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+  }
+  

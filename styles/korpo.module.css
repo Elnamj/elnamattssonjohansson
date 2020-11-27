@@ -1,0 +1,89 @@
+.startbg{
+    background-image: url('../public/images/korpobg.png');
+    background-color: rgb(32,63,107);
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar{
+    background-color: rgb(13,61,110);
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.box2{
+    background-color: rgb(240,240,240);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.box2 iframe{
+    margin-top: 120px;
+}
+
+.box2 p{
+    opacity: 60%;
+    font-size: 10px;
+}
+
+.box3{
+    align-content: center;
+    overflow: visible;
+    background-image: url('../public/images/korpo-method.png');
+}
+
+.box3 h2{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.team{
+    background-image: url('../public/images/korpoteam.png');
+    background-repeat: no-repeat;
+}
+
+.team p{
+    text-align: center;
+    padding-top: 335px;
+    font-family:  'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.process{
+    background-image: url('../public/images/korpodm.png');
+    background-repeat: no-repeat;
+}
+
+.process p{
+    text-align: center;
+    padding-top: 290px;
+    font-family:  'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.final{
+    background-image: url('../public/images/korpofinal.png');
+    background-repeat: no-repeat;
+}
+
+.final p{
+    text-align: center;
+    padding-top: 630px;
+    padding-bottom: 70px;
+    font-family:  'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+}

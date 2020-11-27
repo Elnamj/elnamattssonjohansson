@@ -1,0 +1,68 @@
+.title{
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text{
+    color: black;
+    text-align: center;
+    margin-top: 6px;
+    text-decoration: none; 
+    margin-left: 2%;  
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.text p{
+    font-size: 12px;
+}
+.image{
+    height: 480px;
+    width: 106%;
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+
+.img1{
+    height: 480px;
+    width: 106%;
+    transition: all 0.5s ease;
+    background-image: url("../public/images/tinderfy.png");
+}
+
+.img2{
+    height: 480px;
+    width: 106%;
+    transition: all 0.5s ease;
+    background-image: url("../public/images/korpo.png");
+}
+
+.img3{
+    height: 480px;
+    width: 106%;
+    transition: all 0.5s ease;
+    background-image: url("../public/images/headsup.png");
+}
+
+.img4{
+    height: 480px;
+    width: 106%;
+    transition: all 0.5s ease;
+    background-image: url("../public/images/feeed.png");
+}
+
+.image img:hover{
+    transform: scale(1.04);
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+    transform: scale(1.04);
+}
+
+.a:hover{
+    text-decoration: none;
+}
+

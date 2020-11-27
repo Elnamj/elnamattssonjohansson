@@ -1,0 +1,26 @@
+.text{
+    color: black;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.text h2{
+    margin-top: 15px;
+}
+
+.info{
+    text-align: left;
+    margin-left: 530px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+}
+
+.info a:hover{
+    text-decoration: underline;
+    color: black;
+}

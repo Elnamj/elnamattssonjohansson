@@ -1,0 +1,51 @@
+.startbg{
+    background-image: url('../public/images/feeedbg.png');
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar{
+    background-color: black;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.box2{
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 70px;
+}
+
+.box2 h2{
+    padding-bottom: 200px;
+}
+
+.box2 p{
+    font-size: 150px;
+}
+
+.box2 span{
+    font-size: 50px;
+    
+}
+
+.box3{
+    background-image: url('../public/images/feeed-method.png');
+    padding-bottom: 60px;
+}
+
+.box3 h2{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Playfair Display', serif;
+}
+

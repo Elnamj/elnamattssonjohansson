@@ -1,0 +1,38 @@
+.about{
+    background-image: url("../public/images/about.png");
+}
+
+.projects{
+    background-image: url('../public/images/projects.png');
+    height: 150%;
+    padding-bottom: 40px;
+}
+
+.home{
+    background-image: url('../public//images/start.png');
+    size: 20%;
+}
+
+.contact{
+    background-image: url('../public/images/contact.png');
+    height: 300px;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: -100%;
+    animation: anim4 2s forwards 1.6s;
+    z-index: 1;
+    background-color: #1E242A;
+}
+
+@keyframes anim4{
+    from{
+        top: -100%;
+    }
+    to{
+        top: 0%;
+    }
+  }
+

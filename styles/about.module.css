@@ -1,0 +1,23 @@
+.text{
+    margin-top: 46%;
+    margin-right: 20%;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.text h2, .text h5{
+    text-align: center;
+    padding: 10px;
+}
+
+.image{
+    margin-top: 20%;
+    height: 150%;
+    width: 106%;
+    margin-left: 17%;
+    background-image: url("../public/images/profile.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
