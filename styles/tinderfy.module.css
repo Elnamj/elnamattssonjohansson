@@ -48,3 +48,12 @@
     padding: 50px;
     font-family: 'Playfair Display', serif;
 }
+
+@media only screen and (min-width: 1450px){
+    .box3, .startbg{
+        background-repeat: no-repeat;
+    }
+    .startbg{
+        background-color: rgb(241,84,95);
+    }
+}

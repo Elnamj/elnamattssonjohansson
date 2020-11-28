@@ -1,21 +1,83 @@
-.about{
-    background-image: url("../public/images/about.png");
+.mobile{
+    display: none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 200px;
+    align-content: center;
+    text-align: center;
 }
 
-.projects{
-    background-image: url('../public/images/projects.png');
-    height: 150%;
-    padding-bottom: 40px;
+.bigScreen{
+    display: none;
+    font-family: 'Playfair Display', serif;
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 1400px){
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1450px){
+    .about, .projects, .home, .contact{
+        background-image: none;
+    }
+
+    .contact{
+        margin-top: 500px;
+        height: 300px;
+    }
+
+    .bigScreen{
+        display: block;
+        animation: cssAnimation 0s 8s forwards;
+    }
+
+    .web{
+        visibility: hidden;
+        animation: cssAnimation2 0s 8s forwards;
+    }
+
+    @keyframes cssAnimation {
+        to   { visibility: hidden; }
+    }
+
+    @keyframes cssAnimation2 {
+        to   { visibility: visible; }
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .about{
+        background-image: url("../public/images/about.png");
+        background-repeat: no-repeat;
+    }
+
+    .projects{
+        background-image: url('../public/images/projects.png');
+        height: 150%;
+        padding-bottom: 40px;
+        
+    }
+
+    .contact{
+        background-image: url('../public/images/contact.png');
+        height: 300px;
+        background-repeat: no-repeat;
+    }
 }
 
 .home{
     background-image: url('../public//images/start.png');
     size: 20%;
-}
-
-.contact{
-    background-image: url('../public/images/contact.png');
-    height: 300px;
+    background-repeat: no-repeat;
 }
 
 .navbar{
@@ -34,5 +96,4 @@
     to{
         top: 0%;
     }
-  }
-
+}

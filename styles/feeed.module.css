@@ -49,3 +49,13 @@
     font-family: 'Playfair Display', serif;
 }
 
+@media only screen and (min-width: 1450px){
+    .box3{
+        background-repeat: no-repeat;
+        background-color: rgb(240,240,240);
+    }
+    .startbg{
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+}
