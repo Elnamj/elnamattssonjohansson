@@ -7,12 +7,11 @@ export default () => (
             <div className="col-6 justify-content-center">
                 <div className={styles.text}>
                     <h2>About Me</h2>
-                    <h5>Tech enthusiast with a passion for making functional humanized interfaces.</h5><br></br>
+                    <h5>Tech enthusiast with a passion for making humanized interfaces.</h5><br></br>
                     <p>
-                        Passionate about realizing research into interactive user interfaces.
-                        Motivated by making the best possible user experience from a perspective that is both considerate and inclusive.
-                        Curious and eager to learn by following the HTI field to get inspiration for new tools and techniques.
-                        Good understanding of user centered design processes.
+                        I am passionate about realizing user research into interactive user interfaces, where I strive to make the best user experience with the aim to make it considerate and inclusive.
+                        I consider myself to be a "tech enthusiast", curious and eager to learn and get inspiration for new tools and techniques by following the HTI field and the technology advances for both hardware and software.
+                        With a technical HTI educational background at the master's level, I have good understanding of the user centered design process.
                     </p>
                 </div>
             </div>
