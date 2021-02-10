@@ -1,4 +1,4 @@
-import styles from '../styles/feeed.module.css';
+import styles from '../styles/technotion.module.css';
 
 
 export default () => (
@@ -18,8 +18,8 @@ export default () => (
                 </section>
                 <section className={styles.box2}>
                     <h2>How does it work?</h2>
-                    <span>WORK-IN-PROCESS</span><br></br>
-                    <p>STAY TUNED!</p>
+                    <iframe src="https://drive.google.com/file/d/12UrmQWS11_ZpskeB-hUqDkiBzijMg0Ju/preview" width="640" height="400"></iframe>
+                    <p>If the video does not work, open in another browser e.g. Chrome.</p>
                 </section>
                 <section className={styles.box3}>
                     <h2>Methods</h2>

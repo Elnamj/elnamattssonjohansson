@@ -43,12 +43,12 @@ export default () => (
                     </a>
                 </div>
                 <div className="col-4">
-                    <a href="/feeed" className={styles.a}>
+                    <a href="/technotion" className={styles.a}>
                         <div className={styles.image}>
                             <div className={styles.img4}></div>
                         </div>
                         <div className={styles.text}>
-                            <h2>Feeed</h2>
+                            <h2>Technotion</h2>
                             <p>A platform to inspire women's interesst in technology.</p>
                         </div>
                     </a>
