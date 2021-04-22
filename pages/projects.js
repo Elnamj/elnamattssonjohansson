@@ -19,13 +19,13 @@ export default () => (
                     </a>
                 </div>
                 <div className="col-4">
-                    <a href="/korpo" className={styles.a}>
+                    <a href="/technotion" className={styles.a}>
                         <div className={styles.image}>
-                            <div className={styles.img2}></div>
+                            <div className={styles.img4}></div>
                         </div>
                         <div className={styles.text}>
-                            <h2>Korpo</h2>
-                            <p>Emotion technolgy, improving remote meetings.</p>
+                            <h2>Technotion</h2>
+                            <p>A platform to inspire women's interest in technology. </p>
                         </div>
                     </a>
                 </div>
@@ -38,18 +38,18 @@ export default () => (
                         </div>
                         <div className={styles.text}>
                             <h2>HeadsUp 2.0</h2>
-                            <p>Improves the HeadsUp game throught haptics.</p>
+                            <p>Improves the HeadsUp game through haptics. </p>
                         </div>
                     </a>
                 </div>
                 <div className="col-4">
-                    <a href="/technotion" className={styles.a}>
+                    <a href="/korpo" className={styles.a}>
                         <div className={styles.image}>
-                            <div className={styles.img4}></div>
+                            <div className={styles.img2}></div>
                         </div>
                         <div className={styles.text}>
-                            <h2>Technotion</h2>
-                            <p>A platform to inspire women's interesst in technology.</p>
+                            <h2>Korpo</h2>
+                            <p>Emotion technology, improving remote meetings. </p>
                         </div>
                     </a>
                 </div>

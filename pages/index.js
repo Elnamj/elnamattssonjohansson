@@ -14,10 +14,10 @@ export default () => (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"></link>
     </head>
     <div className={styles.mobile}>
-      <p>This portfolio website has not yet beeen optimized for screen sizes other than web (13-inch). <br></br><br></br><h1>For optimal experience, please view this portfolio on a computer in full screen, preferably in a Chrome browser.</h1></p>
+      <p>This portfolio has not yet been optimized for screen sizes other than web (13-inch). <br></br><br></br><h1>For optimal experience, please view this portfolio on a computer in full-screen, preferably in a Chrome browser.</h1></p>
     </div>
     <div className={styles.bigScreen}>
-      <p>Optimized for web (13-inch). <br></br>Some content may look different for bigger screen sizes. <br></br><br></br>Wait to continue.</p>
+      <p>This portfolio has not yet been optimized for screen sizes other than web (13-inch). <br></br>Some content may look different for bigger screen sizes. <br></br><br></br>Please, wait to continue.</p>
     </div>
     <body>
       <div className={styles.web}>

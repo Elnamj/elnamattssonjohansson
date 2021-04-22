@@ -10,13 +10,16 @@ export default () => (
                 </video>
                 <div id={styles.box2}>
                     <div id={styles.name}>
-                        Elna Mattsson Johansson
+                        Hello, I'm Elna Mattsson Johansson.
                     </div>
                 </div>
 
                 <div id={styles.box3}>
                     <div id={styles.text}>
-                        FRONT-END DEVELOPER <br></br>UX DESIGNER
+                        UX Researcher, <br></br>
+                        <div id={styles.jobtitle}>
+                            creating considerate experiences for people.
+                        </div>
                     </div>
                 </div>
             </div>
